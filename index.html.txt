@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noel Kutlama Sitesi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: url('https://via.placeholder.com/1920x500?text=Mutlu+Noeller') no-repeat center center/cover;
+            height: 300px;
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px #000;
+        }
+        nav {
+            background-color: #d32f2f;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #d32f2f;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #b71c1c;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mutlu Noeller!</h1>
+        <p>Sevdiklerinizle dolu bir Noel dileriz!</p>
+    </header>
+    <nav>
+        <a href="#about">Noel Hakkında</a>
+        <a href="#traditions">Gelenekler</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+    <section id="about">
+        <h2>Noel Nedir?</h2>
+        <p>Noel, sevgi, paylaşma ve mutlulukla geçen harika bir zamandır. Ailenizle birlikte bu özel günü kutlayın!</p>
+        <a href="#traditions" class="button">Gelenekleri Keşfet</a>
+    </section>
+    <section id="traditions">
+        <h2>Noel Gelenekleri</h2>
+        <p>Noel ağacı süslemek, hediyeler vermek ve sıcak bir kakao ile ailece vakit geçirmek, bu güzel günün vazgeçilmezlerindendir.</p>
+        <img src="https://via.placeholder.com/800x400?text=Noel+A%C4%9Fac%C4%B1" alt="Noel Ağacı">
+    </section>
+    <section id="contact">
+        <h2>İletişim</h2>
+        <p>Bize ulaşmak için <a href="mailto:noel@example.com">noel@example.com</a> adresine e-posta gönderin.</p>
+        <a href="https://www.noelkutlama.com" class="button">Noel Kutlama Sitesine Git</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Noel Kutlama Sitesi. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
